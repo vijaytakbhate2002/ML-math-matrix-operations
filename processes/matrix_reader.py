@@ -19,10 +19,10 @@ def reader(mtx:list) -> np.ndarray:
                 continue
             try:
                 val = int(val)
+                int_row.append(val)
             except:
                 logging.warning("Invalid literal for int while reading")
                 raise ValueError("Invalid literal for int while reading")
-            int_row.append(val)
         arr.append(int_row)
 
     try:
