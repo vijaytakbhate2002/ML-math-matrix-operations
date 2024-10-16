@@ -9,4 +9,4 @@ st.sidebar.page_link("app.py", label="Home", icon="🏠")
 st.sidebar.page_link("pages/basics.py", label="Basic Operations [Matrix]", icon="1️⃣")
 st.sidebar.page_link("pages/advanced.py", label="Advanced Topics [Matrix]", icon="2️⃣")
 
-st.switch_page('pages\\intro.py')
+st.switch_page('pages/intro.py')
