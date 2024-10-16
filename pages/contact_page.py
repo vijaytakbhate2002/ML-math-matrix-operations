@@ -27,7 +27,7 @@ Welcome to my contact page! I'm actively seeking opportunities where I can lever
 ### View/Download My Resume
 """)
 
-with open("statics\\Resume.pdf", "rb") as resume_file:
+with open("statics/Resume.pdf", "rb") as resume_file:
     resume_data = resume_file.read()
 
 st.download_button(
