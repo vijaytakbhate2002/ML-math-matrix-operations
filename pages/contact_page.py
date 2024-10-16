@@ -5,7 +5,7 @@ st.sidebar.page_link("pages/basics.py", label="Basic Operations [Matrix]", icon=
 st.sidebar.page_link("pages/advanced.py", label="Advanced Topics [Matrix]", icon="2️⃣")
 st.sidebar.page_link("pages/contact_page.py", label="Developer", icon="3️⃣")
 
-st.title("Hiring? Contact Me")
+st.title("Open to work for below positions")
 
 st.markdown("""
 ## Vijay Dipak Takbhate
