@@ -2,3 +2,4 @@
 env
 .ipynb
 .ipynb_checkpoints
+log_file
