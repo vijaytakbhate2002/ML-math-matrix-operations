@@ -37,7 +37,7 @@ st.download_button(
     mime="application/pdf"
 )
 
-with open("statics\\Resume.pdf", "rb") as resume_file:
+with open("statics/Resume.pdf", "rb") as resume_file:
     resume_data = resume_file.read()
 
 base64_pdf = base64.b64encode(resume_data).decode('utf-8')
