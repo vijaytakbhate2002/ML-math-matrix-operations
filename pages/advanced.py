@@ -1,7 +1,6 @@
 import numpy as np
 import streamlit as st
 from processes.matrix_reader import reader
-import logging
 import sys
 sys.path.append('\\'.join(__file__.split('\\')[:-2]))
 from processes.quick_help import user_guide
@@ -12,8 +11,6 @@ st.sidebar.page_link("pages/basics.py", label="Basic Operations [Matrix]", icon=
 st.sidebar.page_link("pages/advanced.py", label="Advanced Topics [Matrix]", icon="2️⃣")
 st.sidebar.page_link("pages/contact_page.py", label="Developer", icon="3️⃣")
 
-logger = logging.getLogger(__name__)
-logging.basicConfig(filename='log_file.log', encoding='utf-8')
 col1, col2 = st.columns(2)
 
 with col1:

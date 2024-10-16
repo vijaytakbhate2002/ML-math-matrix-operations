@@ -1,5 +1,4 @@
 import numpy as np
-import logging
 import streamlit as st
 
 def reader(mtx:list) -> np.ndarray:
@@ -9,7 +8,6 @@ def reader(mtx:list) -> np.ndarray:
     for row in mtx:
         row = row.strip()
         if len(row) <= 0:
-            logging.warning("value not entered properly")
             break
         
         int_row = []
@@ -21,13 +19,11 @@ def reader(mtx:list) -> np.ndarray:
                 val = int(val)
                 int_row.append(val)
             except:
-                logging.warning("Invalid literal for int while reading")
-                raise ValueError("Invalid literal for int while reading")
+                pass
         arr.append(int_row)
 
     try:
         arr = np.matrix(arr)
     except:
-        logging.warning("Invalid user input, can't convert to matrix")
-        raise ValueError("Invalid user input, can't convert to matrix")
+        pass
     return arr
