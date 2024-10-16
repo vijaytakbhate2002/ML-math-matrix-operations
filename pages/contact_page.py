@@ -1,5 +1,4 @@
 import streamlit as st
-import base64
 
 st.sidebar.page_link("app.py", label="Home", icon="🏠")
 st.sidebar.page_link("pages/basics.py", label="Basic Operations [Matrix]", icon="1️⃣")
@@ -24,28 +23,9 @@ Welcome to my contact page! I'm actively seeking opportunities where I can lever
 
 ---
 
-### View/Download My Resume
-""")
+### Download My Resume
+[📄 Download Resume](statics/Resume.pdf)
 
-with open("statics/Resume.pdf", "rb") as resume_file:
-    resume_data = resume_file.read()
-
-st.download_button(
-    label="📄 Download Resume",
-    data=resume_data,
-    file_name="Vijay_Takbhate_Resume.pdf",
-    mime="application/pdf"
-)
-
-with open("statics/Resume.pdf", "rb") as resume_file:
-    resume_data = resume_file.read()
-
-base64_pdf = base64.b64encode(resume_data).decode('utf-8')
-pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="900" type="application/pdf"></iframe>'
-
-st.markdown(pdf_display, unsafe_allow_html=True)
-
-st.markdown("""
 ---
 
 ### Featured Article:
