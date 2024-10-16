@@ -11,3 +11,7 @@
 2024-10-16 14:50:19 - DEBUG - Popen(['git', 'diff', '--abbrev=40', '--full-index', '-M', '--raw', '-z', '--no-color'], cwd=C:\Users\admin\OneDrive\Desktop\ML_math_application, stdin=None, shell=False, universal_newlines=False)
 2024-10-16 14:50:19 - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\admin\OneDrive\Desktop\ML_math_application, stdin=<valid stream>, shell=False, universal_newlines=False)
 2024-10-16 14:50:19 - DEBUG - Popen(['git', 'rev-list', 'origin/main..main', '--'], cwd=C:\Users\admin\OneDrive\Desktop\ML_math_application, stdin=None, shell=False, universal_newlines=False)
+2024-10-16 15:00:46 - WARNING - value not entered properly
+2024-10-16 15:00:46 - WARNING - value not entered properly
+2024-10-16 15:00:54 - WARNING - value not entered properly
+2024-10-16 15:01:06 - WARNING - value not entered properly
