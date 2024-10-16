@@ -3,9 +3,10 @@ import streamlit as st
 st.sidebar.page_link("app.py", label="Home", icon="🏠")
 st.sidebar.page_link("pages/basics.py", label="Basic Operations [Matrix]", icon="1️⃣")
 st.sidebar.page_link("pages/advanced.py", label="Advanced Topics [Matrix]", icon="2️⃣")
+st.sidebar.page_link("pages/contact_page.py", label="Developer", icon="3️⃣")
 
-st.title("Welcome to the Matrix Operations Web Application")
-
+st.title("Welcome to the Matrix Operations")
+st.divider()
 st.markdown("""
 ### Understanding Matrix Operations and Real-Life Applications
 

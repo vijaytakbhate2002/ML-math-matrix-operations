@@ -42,3 +42,16 @@
 2024-10-16 15:34:22 - WARNING - value not entered properly
 2024-10-16 15:34:26 - WARNING - value not entered properly
 2024-10-16 15:34:26 - WARNING - value not entered properly
+2024-10-16 15:46:30 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\admin\OneDrive\Desktop\ML_math_application, stdin=None, shell=False, universal_newlines=False)
+2024-10-16 15:46:30 - DEBUG - Popen(['git', 'rev-parse', '--show-toplevel'], cwd=C:\Users\admin\OneDrive\Desktop\ML_math_application, stdin=None, shell=False, universal_newlines=False)
+2024-10-16 15:46:30 - DEBUG - Popen(['git', 'remote', 'get-url', '--all', 'origin'], cwd=C:\Users\admin\OneDrive\Desktop\ML_math_application, stdin=None, shell=False, universal_newlines=False)
+2024-10-16 15:46:30 - DEBUG - Popen(['git', 'status', '--porcelain', '--untracked-files'], cwd=C:\Users\admin\OneDrive\Desktop\ML_math_application, stdin=None, shell=False, universal_newlines=False)
+2024-10-16 15:46:30 - DEBUG - Popen(['git', 'diff', '--abbrev=40', '--full-index', '-M', '--raw', '-z', '--no-color'], cwd=C:\Users\admin\OneDrive\Desktop\ML_math_application, stdin=None, shell=False, universal_newlines=False)
+2024-10-16 15:46:30 - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\admin\OneDrive\Desktop\ML_math_application, stdin=<valid stream>, shell=False, universal_newlines=False)
+2024-10-16 15:46:30 - DEBUG - Popen(['git', 'rev-list', 'origin/main..main', '--'], cwd=C:\Users\admin\OneDrive\Desktop\ML_math_application, stdin=None, shell=False, universal_newlines=False)
+2024-10-16 15:46:33 - WARNING - value not entered properly
+2024-10-16 15:47:26 - WARNING - value not entered properly
+2024-10-16 15:47:26 - WARNING - value not entered properly
+2024-10-16 15:52:27 - WARNING - value not entered properly
+2024-10-16 15:52:39 - WARNING - value not entered properly
+2024-10-16 15:52:39 - WARNING - value not entered properly
